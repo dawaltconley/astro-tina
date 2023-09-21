@@ -1,0 +1,17 @@
+{
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2022",
+    "module": "ES2022",
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true
+  }
+}

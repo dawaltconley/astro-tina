@@ -1,0 +1,28 @@
+{
+  "name": "astro-tina",
+  "version": "0.1.0",
+  "description": "Support contextual editing with TinaCMS in static Astro sites.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "withastro",
+    "tina",
+    "tinacms",
+    "astro"
+  ],
+  "author": "Dylan Awalt-Conley",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/html-escaper": "^3.0.0",
+    "@types/node": "^20.5.6",
+    "astro": "^2.10.14",
+    "prettier": "^3.0.2",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "astro": ">2.6.0"
+  }
+}
