@@ -2,10 +2,15 @@
   "name": "astro-tina",
   "version": "0.1.0",
   "description": "Support contextual editing with TinaCMS in static Astro sites.",
+  "type": "module",
   "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build",
+    "prepare": "npm run build"
   },
   "keywords": [
     "withastro",

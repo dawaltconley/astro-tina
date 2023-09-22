@@ -6,10 +6,7 @@ declare module 'astro' {
   }
 }
 
-const { pathname: entrypoint } = new URL(
-  '../client-directives/tina.mjs',
-  import.meta.url,
-)
+const { pathname: entrypoint } = new URL('./client-tina.js', import.meta.url)
 
 export default (): AstroIntegration => ({
   name: 'tina-cms',

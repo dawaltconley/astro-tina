@@ -1,7 +1,6 @@
-/**
- * @type {import('astro').ClientDirective}
- */
-export default (load) => {
+import type { ClientDirective } from 'astro'
+
+const clientTina: ClientDirective = (load) => {
   try {
     const isEditor =
       window.frameElement && window.frameElement.id === 'tina-iframe'
@@ -12,3 +11,5 @@ export default (load) => {
     console.error(e)
   }
 }
+
+export default clientTina
