@@ -18,7 +18,7 @@ up Tina in your Astro project.
 Then, install the integration...
 
 ```
-npm install github:dawaltconley/astro-tina
+npm install astro-tina
 ```
 
 ...and add it to your project config.
