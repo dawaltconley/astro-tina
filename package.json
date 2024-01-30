@@ -28,6 +28,6 @@
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "astro": "^2.6.0 || ^3.0.0"
+    "astro": ">=2.6.0 <5.0.0"
   }
 }
